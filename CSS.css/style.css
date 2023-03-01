@@ -1,0 +1,92 @@
+/**
+  Guía de colores a utilizar  
+*/
+:root { 
+    --color-principal: #0D47A1; 
+    --color-secundario: #039BE5;
+    --fondo: #FFFFFF;
+    --negro: #000000;
+    --naranja: orange;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color:var(--fondo);
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    padding: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 1000;
+    font-size: large;
+    color:var(--fondo);
+}
+/**
+  Imagen de la barra principal
+*/
+.logo img {border-radius: 50%;}
+
+.topheader {
+    position: fixed; 
+    padding: 0;
+    box-shadow: 0 4px 2px var(--naranja);
+    background-color: var(--color-principal);
+    width: 100%;
+    background: #0004ff;
+    }
+
+/**
+Parte principal de la pagina
+*/
+body {font-family: 'Oswald', sans-serif; }
+
+
+
+.principio {
+    padding-top: 100px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;}
+.imagen-1 {
+    max-width: 20px;
+    align-items: center;}
+
+.h1 {
+    font-weight: bold;
+    margin: 0;
+    color: var(--color-principal);
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+}
+.descargar_cv {
+    background-color: var(--color-principal);
+    color: var(--fondo);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    font-size: 20px;
+}
+.info_perfil {
+    font-size: 32px;
+}
+.padding1 {padding-left: 100px;
+    padding-right: 100px;}

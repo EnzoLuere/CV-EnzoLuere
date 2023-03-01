@@ -1,0 +1,32 @@
+.habilidades {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.lista-habilidades {
+    list-style: none;
+    font-size: 28px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px;
+    border-radius: 42px;
+    padding: 1em 1.5em;
+    margin: 10px;
+
+}
+.herramientas {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.lista-herramientas {
+    list-style: none;
+    font-size: 28px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px;
+    border-radius: 42px;
+    padding: 1em 1.5em;
+    margin: 10px;
+}

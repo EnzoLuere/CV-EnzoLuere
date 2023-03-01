@@ -1,0 +1,18 @@
+.contacto-seccion {
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    display: grid;
+    gap: 30px;
+
+}
+.contacto-form {
+    text-align: center;
+    padding-left: 800px;
+    padding-right: 800px;
+    display: grid;
+    gap: 5px;
+}
